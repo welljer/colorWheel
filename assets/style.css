@@ -1,0 +1,67 @@
+body{
+        color:#fff;
+        font-family: Arial, Helvetica, sans-serif;
+        /* can turn on and of black background */
+        /* background-image: url(./media/black.jpg); */
+    }
+
+.color{
+    display: block;
+    width: 60px;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    transition: width 0.4s ease, margin 0.4s ease;
+}
+
+.color div{
+    width: inherit;
+    cursor: pointer;
+}
+
+.color div:hover{
+    width: 100px;
+    text-align: center;
+    margin: 0 0 0 -20px;
+    cursor: pointer;
+}
+
+#redscale{
+    position:absolute;
+    top: 30px;
+    left: 608px;
+}
+
+#greenscale{
+    position:absolute;
+    top: 284px;
+    left: 478px;
+    transform:rotate(45deg)
+}
+
+#bluescale{
+    position:absolute;
+    top: 284px;
+    left: 738px;
+    transform: rotate(-45deg)
+}
+
+#yellowscale{
+    position:absolute;
+    top: 84px;
+    left: 478px;
+    transform: rotate(-45deg)
+}
+
+#cyanscale{
+    position:absolute;
+    top: 338px;
+    left: 608px;
+}
+
+#magentascale{
+    position:absolute;
+    top: 84px;
+    left: 738px;
+    transform: rotate(45deg)
+}
